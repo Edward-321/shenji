@@ -8,9 +8,11 @@
 #   · 可以编译 Objective-C / Swift（见下方 FRAMEWORKS 自动探测）
 #
 # 踩过的坑：
-#   `xcrun --sdk iphoneos clang`（不带 --find）会「执行」clang 而不是打印路径，
-#   无输入文件时报 "clang: error: no input files" → set -e 直接退出。
-#   必须用 `xcrun --sdk iphoneos --find clang`。
+#   1) `xcrun --sdk iphoneos clang`（不带 --find）会「执行」clang 而不是打印路径，
+#      无输入文件时报 "clang: error: no input files" → set -e 直接退出。
+#      必须用 `xcrun --sdk iphoneos --find clang`。
+#   2) Apple clang 不接受 `-fuse-ld=ld64`，报 "invalid linker name"；
+#      它的默认链接器本来就是 ld64，这参数在 Linux clang 上才有意义。
 # =============================================================
 set -euo pipefail
 
@@ -59,7 +61,6 @@ for SRC in "${SOURCES[@]}"; do
     -arch "$ARCH" \
     -isysroot "$SDK" \
     -miphoneos-version-min="$TARGET_VER" \
-    -fuse-ld=ld64 \
     -o "build/$NAME" \
     "build/$NAME.o" \
     "${FRAMEWORKS[@]+"${FRAMEWORKS[@]}"}"
