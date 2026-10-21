@@ -2,7 +2,7 @@ Package: com.minis.iostools
 Version: 1.0.0
 Architecture: iphoneos-arm64e
 Maintainer: minis
-Filename: ./com.minis.iostools.deb
+Filename: debs/com.minis.iostools.deb
 Size: 3888
 MD5sum: ac2eeeae5da5261d1c994db4df78c844
 SHA1: 4f50d8b84f502bb8bafafef9bafaf32383adfd52
@@ -17,7 +17,7 @@ Package: com.minis.minictl
 Version: 1.0.0
 Architecture: iphoneos-arm64e
 Maintainer: minis
-Filename: ./com.minis.minictl.deb
+Filename: debs/com.minis.minictl.deb
 Size: 2112
 MD5sum: 47db23b997d9c3013b18dbd3e278d4ef
 SHA1: 9dd0aedb9dd0a131d10e7e59d10e3faa19b124c5
@@ -32,7 +32,7 @@ Package: com.minis.sysprobe
 Version: 1.0.0
 Architecture: iphoneos-arm64e
 Maintainer: minis
-Filename: ./com.minis.sysprobe.deb
+Filename: debs/com.minis.sysprobe.deb
 Size: 3428
 MD5sum: 8308f213bd89c6a7e890fa8538dde628
 SHA1: e0b355e7e0b334d443413e5e43410c1df7bbb06d

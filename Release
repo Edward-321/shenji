@@ -6,21 +6,21 @@ Codename: ios
 Architectures: iphoneos-arm64e 
 Components: main
 Description: 自定义 iOS 软件源 (iSH 构建)
-Date: Wed, 21 Oct 2026 01:54:02 UTC
+Date: Wed, 21 Oct 2026 02:04:10 UTC
 Acquire-By-Hash: no
 
 MD5Sum:
- 2310b1dbae4ae8b1e88fc658d0763bf9 1313 Packages
- 49cec1ccb00c9ebbf182b8dd1befc455 541 Packages.gz
- 40a4e1b7606681cd43f101b1f4e2b8ed 631 Packages.bz2
- c70f0afdb33c2d9f6600f9fe1e12166b 612 Packages.xz
+ 378baeef20b3d9d0547c6e406a2f5c1c 1322 Packages
+ 02a5c7040945946d4b968ce44bcf4b01 540 Packages.gz
+ d1d7927e55ec688e54ae3ac717aba39e 631 Packages.bz2
+ e31dada41448015eeff40b22f62b58ea 608 Packages.xz
 SHA1:
- 722ecb3a2d4deefe5a14157d83dfc60ec28153a2 1313 Packages
- 0c64902a93c3d90be6821717eccc653613be70e7 541 Packages.gz
- dcc25fd6bd3f51a8309b802b4d8bbfa3c94993e5 631 Packages.bz2
- 90c7f1d33c1642050248c6a2bd7e4dc2592b41cf 612 Packages.xz
+ 31d1f00cebd5a9116ee334fee39367dfb1808ebe 1322 Packages
+ 905c08b9d2e2c672f5d8c5b229859b805ee26482 540 Packages.gz
+ 01aa5f9ca7deb7569a0e33c97e1aa6e8462d9e3d 631 Packages.bz2
+ b10d72697a3b9e40435d441e46ae8f9804e6e197 608 Packages.xz
 SHA256:
- 9bd3118be776facaa925c9982ac968e0b38cfea2a9e50b5583a2c1eb439025ad 1313 Packages
- 3a16464e673160069beff9f39ebea97b9799969aeeb4b56a3a89ce0ee6dcfb13 541 Packages.gz
- b575769005631738a2bd61b244ceaa9574cdf2387c1ee366cc2e30d5599a29d5 631 Packages.bz2
- 610468dc8c63dac6fef854fe086e4cf660a02d1514d957d4974a69d0ad921bf8 612 Packages.xz
+ 94a22041273c579605f67a17fafc5236a75e7c05f5799cdf9ba9eff46a416a20 1322 Packages
+ 2650fe009c321ec6a317c014c5564331c5d5eebea5524b43ca45d90ba66cf80b 540 Packages.gz
+ 04a02c70fb62066d0193cfbaffff641efc93afd6fdfc41e5a4675fca58ef3813 631 Packages.bz2
+ 30e96bf080808d266fa2d20cd3ff00342aed06aa5476cf9c2ef5029946532ac6 608 Packages.xz
