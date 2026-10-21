@@ -1,0 +1,45 @@
+Package: com.minis.iostools
+Version: 1.0.0
+Architecture: iphoneos-arm64e
+Maintainer: minis
+Filename: ./com.minis.iostools.deb
+Size: 3888
+MD5sum: ac2eeeae5da5261d1c994db4df78c844
+SHA1: 4f50d8b84f502bb8bafafef9bafaf32383adfd52
+SHA256: da2b8e95da2b35fe6c1656026c16da175db767485db7b10eebde86fbebde70a0
+Section: Utilities
+Priority: optional
+Description: iOS 包 (iSH 构建: debs/com.minis.iostools.deb)
+Author: minis
+Name: com.minis.iostools
+
+Package: com.minis.minictl
+Version: 1.0.0
+Architecture: iphoneos-arm64e
+Maintainer: minis
+Filename: ./com.minis.minictl.deb
+Size: 2112
+MD5sum: 47db23b997d9c3013b18dbd3e278d4ef
+SHA1: 9dd0aedb9dd0a131d10e7e59d10e3faa19b124c5
+SHA256: 6acd59216acd0d31ee44e400ee4443f64ceb2b9f4ceb25661339da851339a899
+Section: Utilities
+Priority: optional
+Description: iOS 包 (iSH 构建: debs/com.minis.minictl.deb)
+Author: minis
+Name: com.minis.minictl
+
+Package: com.minis.sysprobe
+Version: 1.0.0
+Architecture: iphoneos-arm64e
+Maintainer: minis
+Filename: ./com.minis.sysprobe.deb
+Size: 3428
+MD5sum: 8308f213bd89c6a7e890fa8538dde628
+SHA1: e0b355e7e0b334d443413e5e43410c1df7bbb06d
+SHA256: 5e531f8c5e531ab4e3ad6fe9e3ad903bb7643bfbb764598461a27a5661a24671
+Section: Utilities
+Priority: optional
+Description: iOS 包 (iSH 构建: debs/com.minis.sysprobe.deb)
+Author: minis
+Name: com.minis.sysprobe
+

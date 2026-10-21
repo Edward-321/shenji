@@ -1,0 +1,13 @@
+{
+  "class": "FeaturedBannersView",
+  "itemSize": "{263, 148}",
+  "itemCornerRadius": 8,
+  "banners": [
+    {
+      "url": "banner.png",
+      "title": "jie自用",
+      "package": "com.minis.sysprobe",
+      "hideShadow": false
+    }
+  ]
+}

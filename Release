@@ -1,0 +1,26 @@
+Origin: jie自用
+Label: jie自用
+Suite: stable
+Version: 1.0
+Codename: ios
+Architectures: iphoneos-arm64e 
+Components: main
+Description: 自定义 iOS 软件源 (iSH 构建)
+Date: Wed, 21 Oct 2026 01:54:02 UTC
+Acquire-By-Hash: no
+
+MD5Sum:
+ 2310b1dbae4ae8b1e88fc658d0763bf9 1313 Packages
+ 49cec1ccb00c9ebbf182b8dd1befc455 541 Packages.gz
+ 40a4e1b7606681cd43f101b1f4e2b8ed 631 Packages.bz2
+ c70f0afdb33c2d9f6600f9fe1e12166b 612 Packages.xz
+SHA1:
+ 722ecb3a2d4deefe5a14157d83dfc60ec28153a2 1313 Packages
+ 0c64902a93c3d90be6821717eccc653613be70e7 541 Packages.gz
+ dcc25fd6bd3f51a8309b802b4d8bbfa3c94993e5 631 Packages.bz2
+ 90c7f1d33c1642050248c6a2bd7e4dc2592b41cf 612 Packages.xz
+SHA256:
+ 9bd3118be776facaa925c9982ac968e0b38cfea2a9e50b5583a2c1eb439025ad 1313 Packages
+ 3a16464e673160069beff9f39ebea97b9799969aeeb4b56a3a89ce0ee6dcfb13 541 Packages.gz
+ b575769005631738a2bd61b244ceaa9574cdf2387c1ee366cc2e30d5599a29d5 631 Packages.bz2
+ 610468dc8c63dac6fef854fe086e4cf660a02d1514d957d4974a69d0ad921bf8 612 Packages.xz
