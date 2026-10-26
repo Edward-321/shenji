@@ -1,8 +1,8 @@
 // ==UserScript==
-// @name         Script Studio · Declutter
+// @name         弹窗清理
 // @namespace    safari-script-studio.original
-// @version      1.0.0
-// @description  Locally hide a small allowlist of cookie banners, never accept consent.
+// @version      1.1.0
+// @description  只隐藏已知的 Cookie 同意平台横幅和遮罩，绝不自动点击同意或拒绝。不绕过登录与付费墙，也不代表阻止跟踪。
 // @match        http://*/*
 // @match        https://*/*
 // @run-at       document-end

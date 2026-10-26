@@ -1,8 +1,8 @@
 // ==UserScript==
-// @name         Script Studio · Repair
+// @name         网页修复
 // @namespace    safari-script-studio.original
-// @version      1.0.0
-// @description  Restore ordinary selection/copy; optional app-link guard and conservative tracking cleanup.
+// @version      1.1.0
+// @description  恢复网页的常规选择、复制与右键；可选拦截已知 App 跳转链接；保守清理已知跟踪参数。不保证覆盖比本脚本更早注册的事件监听。
 // @match        http://*/*
 // @match        https://*/*
 // @run-at       document-start

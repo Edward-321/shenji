@@ -3,18 +3,18 @@
     "id": "repair",
     "filename": "repair.user.js",
     "name": "网页修复",
-    "description": "默认恢复选择、复制及右键；保守清理已知跟踪参数；已知 App 链接阻止可选且默认关闭。不保证覆盖先注册的网页事件监听。"
+    "description": "恢复网页的常规选择、复制与右键；可选拦截已知 App 跳转链接；保守清理已知跟踪参数。"
   },
   {
     "id": "declutter",
     "filename": "declutter.user.js",
-    "name": "保守净化",
-    "description": "默认仅隐藏明确已知的 Cookie 横幅与配套遮罩；可按源恢复。绝不自动同意或拒绝，不绕过登录、付费墙，不代表阻止跟踪。"
+    "name": "弹窗清理",
+    "description": "隐藏已知的 Cookie 同意平台横幅与遮罩，可按站点恢复；绝不自动同意或拒绝。"
   },
   {
     "id": "toolkit",
     "filename": "toolkit.user.js",
-    "name": "可选工具箱",
-    "description": "通过脚本菜单打开可拖动、折叠面板。媒体资源嗅探、广告外观过滤、自动滚动、本站 CSS 和中文翻译提示均按源保存且默认关闭。Google 翻译跳转逐次确认并披露第三方 URL/页面处理；非万能翻译或媒体下载器。"
+    "name": "网页工具箱",
+    "description": "侧边悬浮吸附面板：页内中文翻译（不跳转、不用代理）、资源嗅探、广告外观过滤、本站 CSS、自动滚动。"
   }
 ]

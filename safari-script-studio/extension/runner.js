@@ -18,7 +18,7 @@ await Promise.all(ids.map(async id=>{
  const del=k=>{delete values[k];return api.runtime.sendMessage({type:'value',op:'delete',id,key:String(k)})};
  const style=css=>{const el=document.createElement('style');el.textContent=css;(document.head||document.documentElement).append(el);return el};
  const register=(name,fn)=>{const n=id+':'+(++serial);commands.set(n,{name:s.meta.name+' · '+name,fn});return n};
- const all={GM_getValue:get,GM_setValue:set,GM_deleteValue:del,GM_listValues:()=>Object.keys(values),GM_addStyle:style,GM_registerMenuCommand:register,GM_unregisterMenuCommand:n=>commands.delete(n),GM_info:{script:{name:s.meta.name,version:s.meta.version},scriptHandler:'澄页',version:'0.1.0'},GM:{getValue:async(...a)=>get(...a),setValue:set,deleteValue:del,listValues:async()=>Object.keys(values),addStyle:style}};
+ const all={GM_getValue:get,GM_setValue:set,GM_deleteValue:del,GM_listValues:()=>Object.keys(values),GM_addStyle:style,GM_registerMenuCommand:register,GM_unregisterMenuCommand:n=>commands.delete(n),GM_info:{script:{name:s.meta.name,version:s.meta.version},scriptHandler:'澄页',version:'0.2.0'},GM:{getValue:async(...a)=>get(...a),setValue:set,deleteValue:del,listValues:async()=>Object.keys(values),addStyle:style}};
  const grants=new Set(s.meta.grants);const exposed={};for(const [k,v]of Object.entries(all)){if(k==='GM_info'||grants.has(k))exposed[k]=v;else if(k==='GM')exposed.GM=Object.fromEntries(Object.entries(v).filter(([method])=>grants.has('GM.'+method)))}
  try{new Function(...Object.keys(exposed),'"use strict";\n'+s.source+'\n//# sourceURL=userscript-'+id+'.js')(...Object.values(exposed));ran++}catch(e){errors.push(s.meta.name+': '+e.message);console.error('[澄页]',s.meta.name,e)}
 }));

@@ -1,11 +1,12 @@
 {
  "manifest_version":2,
  "name":"澄页 · Safari 脚本管理器",
- "version":"0.1.0",
- "description":"批量管理用户脚本，内置修复、清理和网页工具箱。实验性 Safari Web Extension。",
- "permissions":["storage","unlimitedStorage","activeTab"],
- "browser_action":{"default_title":"澄页","default_popup":"popup.html"},
- "options_ui":{"page":"manager.html","open_in_tab":true},
+ "version":"0.2.0",
+ "description":"批量管理用户脚本，内置网页修复、弹窗清理和带页内翻译的网页工具箱。实验性 Safari Web Extension。",
+ "permissions":["storage","unlimitedStorage","activeTab","*://aidemo.youdao.com/*","*://api.mymemory.translated.net/*"],
+ "browser_action":{"default_title":"澄页","default_popup":"popup.html","default_icon":{"48":"icons/48.png","96":"icons/96.png"}},
+ "icons":{"48":"icons/48.png","96":"icons/96.png","128":"icons/128.png","256":"icons/256.png"},
+ "options_ui":{"page":"manager.html"},
  "content_security_policy":"script-src 'self' 'unsafe-eval'; object-src 'none'",
  "content_scripts":[{"matches":["http://*/*","https://*/*"],"js":["lib/core.js","runner.js"],"run_at":"document_start","all_frames":true}],
  "background":{"scripts":["background.js"],"persistent":false}
