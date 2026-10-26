@@ -9,11 +9,13 @@ xcrun --sdk iphoneos --show-sdk-version
 node tests/core.test.cjs
 find extension -name '*.js' -exec node --check {} \;
 # Keep the exact converter capability output with the deliverables.
+set +e
 xcrun safari-web-extension-converter --help 2>&1 | tee dist/converter-help.txt
-grep -q -- '--ios' dist/converter-help.txt
+set -e
+grep -q -- '--ios-only' dist/converter-help.txt
 xcrun safari-web-extension-converter "$PWD/extension" \
   --project-location "$PWD/generated" --app-name ScriptStudio \
-  --bundle-identifier com.local.scriptstudio --swift --ios --no-open --no-prompt 2>&1 | tee dist/converter.log
+  --bundle-identifier com.local.scriptstudio --swift --ios-only --copy-resources --no-open --no-prompt 2>&1 | tee dist/converter.log
 PROJECT=$(find generated -name '*.xcodeproj' -type d | head -1)
 test -n "$PROJECT"
 xcodebuild -list -json -project "$PROJECT" > dist/xcode-project.json
